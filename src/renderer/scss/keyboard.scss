@@ -1,0 +1,8 @@
+
+.hg-theme-default {
+    background-color: transparent;
+    .hg-button{
+        @apply dark:bg-gray-700;
+        @apply dark:border-gray-700;
+    }
+}

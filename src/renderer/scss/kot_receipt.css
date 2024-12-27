@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'ThermalReceipt'; /* The name you want to use */
+    src: url('./fonts/thermal-receipt.otf') format('opentype'); /* Path to the .otf file */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    width: 58mm;
+    margin: 0 auto;
+    color: #000;
+}
+.receipt {
+    padding: 10px;
+}
+.header {
+    text-align: center;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 10px;
+}
+.header h1 {
+    font-size: 18px;
+    margin: 0;
+}
+.header p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.order-details {
+    padding: 10px 0;
+}
+.order-details p {
+    font-size: 16px;
+    margin: 3px 0;
+}
+.order-items {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.item p {
+    margin: 0;
+}
+.footer {
+    text-align: center;
+    font-size: 16px;
+}
